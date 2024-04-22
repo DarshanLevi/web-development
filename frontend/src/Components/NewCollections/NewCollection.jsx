@@ -1,9 +1,9 @@
 import React from "react";
-import "./newCollection.css";
+import "./NewCollection.css";
 import new_collections from "../Assets/new_collections";
 import Item from "../Item/Item";
 
-const newCollection = () => {
+const NewCollection = () => {
   return (
     <div className="new-collection">
       <h1>NEW COLLECTIONS</h1>
@@ -26,4 +26,4 @@ const newCollection = () => {
   );
 };
 
-export default newCollection;
+export default NewCollection;

@@ -14,7 +14,7 @@ height: 90vh;
 
 .popular hr{
     width: 200px;
-    height: 6px;
+    height: 0px;
     border-radius: 10px;
     background: #8d6363;
 }

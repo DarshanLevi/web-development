@@ -23,5 +23,4 @@ const LoginSignup = () => {
     </div>
   );
 };
-
 export default LoginSignup;

@@ -114,6 +114,14 @@ app.post("/addproduct", async (req, res) => {
   });
 });
 
+// creating API for getting all products
+
+app.get('/getallproducts',async(req,res)=>{
+    let products = await Product.find({});
+    console.log('all products fetched')
+    res.send(products);
+})
+
 // creating API for deleting products
 
 app.post('/removeproduct',async (req,res)=>{

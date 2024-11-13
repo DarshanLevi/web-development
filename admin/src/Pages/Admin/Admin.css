@@ -1,5 +1,5 @@
 .admin{
-    background: rgb(247, 247, 247);
+    background-color: rgb(255, 255, 255);   
     display: flex;
 }
 @media (max-width: 800px){

@@ -1,6 +1,9 @@
 .hero {
   display: flex;
   height: 100vh;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin: 50px;
   background: linear-gradient(
     180deg,
     rgba(241, 224, 255, 0.699),

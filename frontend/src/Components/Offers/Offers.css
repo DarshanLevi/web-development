@@ -1,6 +1,7 @@
 .offers {
   width: 65%;
-  height: 60vh;
+  height: 50vh;
+  border-radius: 3%;
   display: flex;
   margin: auto;
   padding: 0px 140px;
@@ -8,7 +9,7 @@
   background: linear-gradient(
     180deg,
     rgba(235, 211, 255, 0.514),
-    rgba(250, 250, 250, 0.692) 60%
+    rgba(255, 254, 254, 0.692) 60%
   );
 }
 
